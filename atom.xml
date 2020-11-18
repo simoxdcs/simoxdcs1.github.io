@@ -3,7 +3,109 @@
     <id>http://example.com</id>
     <title>欲买桂花同载酒，终不似，少年游。</title>
     <link href="http://example.com" />
-    <updated>2020-10-23T01:29:36.000Z</updated>
+    <updated>2020-11-18T06:20:02.000Z</updated>
+    <category term="教程" />
+    <category term="随笔" />
+    <entry>
+        <id>http://example.com/2020/11/18/linux%E6%8D%A2%E6%BA%90/</id>
+        <title>linux相关</title>
+        <link rel="alternate" href="http://example.com/2020/11/18/linux%E6%8D%A2%E6%BA%90/"/>
+        <content type="html">&lt;p&gt;## 第一章&lt;/p&gt;
+&lt;p&gt;因为我 Linux 也是才开始用。。结果自己就遇到了很多麻烦的事情。。就自己在网上东扒西找的姑且算是解决了。。就自己写个东西一面自己在遇到的时候又不会了。。&lt;br&gt;
+换源：&lt;br&gt;
+sudo pacman-mirrors -i -c China -m rank  更新镜像&lt;br&gt;
+ sudo vim /etc/pacman.d/mirrorlist  查看选择的源&lt;br&gt;
+ sudo vim /etc/pacman.conf  设置源（可以自己添加源链接进去）&lt;/p&gt;
+&lt;p&gt;我用的是 manjaro 这个 archlinux 的衍生版本。。还算是怪好用的&lt;br&gt;
+更新 ：&lt;br&gt;
+1.sudo pacman -S cuda 安装&lt;br&gt;
+ 2.pacman -Syu 更新系统&lt;br&gt;
+ 3.pacman -Syy 强制更新&lt;br&gt;
+ 4.pacman -Ss keyword	在仓库中搜索含关键字的包（常用）&lt;br&gt;
+5.pacman -Qs keyword	搜索已安装的包（常用）	&lt;br&gt;
+6.pacman -Qi package_name	查询本地安装包的详细信息&lt;br&gt;
+ 7.pacman -Ql package_name	列出该包的文件&lt;br&gt;
+ 8.pacman -Fs keyword	按文件名查找软件库&lt;br&gt;
+ 9.pacman -Si package_name	显示远程软件包的详尽的信息&lt;br&gt;
+ 10.pacman -Qii package_name	使用两个 -i 将同时显示备份文件和修改状态&lt;br&gt;
+ 11.pacman -Ql package_name	要获取已安装软件包所包含文件的列表&lt;br&gt;
+ 12.pacman -Fl package_name	查询远程库中软件包包含的文件&lt;br&gt;
+ 13.pacman -Qk package_name	检查软件包安装的文件是否都存在&lt;br&gt;
+ 14.pacman -Fo /path/to/file_name	查询文件属于远程数据库中的哪个软件包&lt;br&gt;
+ 15.pacman -Qdt	要罗列所有不再作为依赖的软件包 (孤立 orphans)&lt;br&gt;
+ 16.pacman -Qet	要罗列所有明确安装而且不被其它包依赖的软件包&lt;br&gt;
+ 17.pactree package_name	要显示软件包的依赖树&lt;br&gt;
+ 18.whoneeds package_name	检查一个安装的软件包被那些包依赖&lt;br&gt;
+ 19.pactree -r package_name	检查一个安装的软件包被那些包依赖&lt;br&gt;
+ 20…pacman -Sw package_name	只下载包，不安装。&lt;br&gt;
+21.pacman -Sc	清理未安装的包文件（常用）包文件位于 /var/cache/pacman/pkg/ 目录&lt;br&gt;
+ 22.pacman -Scc	清理所有的缓存文件（常用）&lt;br&gt;
+23.pacman -R package_name	该命令将只删除包，保留其全部已经安装的依赖关系&lt;br&gt;
+ 24.pacman -Rs package_name	在删除包的同时，删除其所有没有被其他已安装软件包使用的依赖关系（常用）&lt;br&gt;
+25.pacman -Rsc package_name	在删除包的同时，删除所有依赖这个软件包的程序&lt;br&gt;
+ 26.pacman -Rd package_name	在删除包时不检查依赖&lt;br&gt;
+ 8.pacman -Fs keyword    按文件名查找软件库&lt;br&gt;
+ 9.pacman -Si package_name       显示远程软件包的详尽的信息&lt;br&gt;
+ 10.pacman -Qii package_name     使用两个 -i 将同时显示备份文件和修改状态&lt;br&gt;
+ 11.pacman -Ql package_name      要获取已安装软件包所包含文件的列表&lt;br&gt;
+ 12.pacman -Fl package_name      查询远程库中软件包包含的文件&lt;br&gt;
+ 13.pacman -Qk package_name      检查软件包安装的文件是否都存在&lt;br&gt;
+ 14.pacman -Fo /path/to/file_name        查询文件属于远程数据库中的哪个软件包&lt;br&gt;
+ 15.pacman -Qdt  要罗列所有不再作为依赖的软件包 (孤立 orphans)&lt;br&gt;
+ 16.pacman -Qet  要罗列所有明确安装而且不被其它包依赖的软件包&lt;br&gt;
+ 17.pactree package_name 要显示软件包的依赖树&lt;br&gt;
+ 18.whoneeds package_name        检查一个安装的软件包被那些包依赖&lt;br&gt;
+ 19.pactree -r package_name      检查一个安装的软件包被那些包依赖&lt;br&gt;
+ 20…pacman -Sw package_name     只下载包，不安装。&lt;br&gt;
+21.pacman -Sc   清理未安装的包文件（常用）包文件位于 /var/cache/pacman/pkg/ 目录&lt;br&gt;
+ 22.pacman -Scc  清理所有的缓存文件（常用）&lt;br&gt;
+23.pacman -R package_name       该命令将只删除包，保留其全部已经安装的依赖关系&lt;br&gt;
+ 24.pacman -Rs package_name      在删除包的同时，删除其所有没有被其他已安装软件包&lt;br&gt;
+使用的依赖关系（常用）&lt;br&gt;
+25.pacman -Rsc package_name     在删除包的同时，删除所有依赖这个软件包的程序&lt;br&gt;
+ 26.pacman -Rd package_name      在删除包时不检查依赖&lt;br&gt;
+ 27.pacman -S package_name	执行 pacman -S firefox 将安装 Firefox（常用）	你也可以同时安装多个包，只需以空格分隔包名即&lt;br&gt;
+ pacman -Sy package_name	与上面命令不同的是，该命令将在同步包数据库后再执行安装。28.pacman -Sv package_name	在显示一些操作信息后执行安装。	&lt;br&gt;
+29.pacman -U local_package_name	安装本地包，其扩展名为 pkg.tar.gz 或 pkg.tar.xz	30.pacman -U url	安装一个远程包（不在 pacman 配置的源里面）&lt;/p&gt;
+&lt;p&gt;姑且先写这么多。。不够的以后再补上吧。&lt;/p&gt;
+</content>
+        <category term="教程" />
+        <updated>2020-11-18T06:20:02.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2020/11/18/%E6%95%99%E7%A8%8B/</id>
+        <title>博客教程</title>
+        <link rel="alternate" href="http://example.com/2020/11/18/%E6%95%99%E7%A8%8B/"/>
+        <content type="html">&lt;p&gt;## 第一章&lt;/p&gt;
+&lt;p&gt;搭建 hexo 博客需要的几样东西：&lt;br&gt;
+1. 一台联网的电脑    2.git    3.nodejs    4. 脑子    5. 手（狗头保命&lt;br&gt;
+几个必须的较长的命令：&lt;br&gt;
+1.（安装国内的 cnpm (淘宝源)）npm install -g cnpm --registry=https://registry.npm.taobao.org&lt;br&gt;
+2.（安装 hexo 框架）cnpm install -g hexo-cli&lt;br&gt;
+3.（安装部署到远端的 hexo 工具）cnpm install --save hexo-deployer-git&lt;br&gt;
+ 注意事项：&lt;br&gt;
+1. 在部署到远端之前记得先本地生成预览一下&lt;br&gt;
+ 2. 部署到 GitHub 服务器之前记得往博客里面添加 GitHub 的账号信息&lt;br&gt;
+ 3. 如果部署到远端失败就尝试推倒墙娘然后再试一次。&lt;br&gt;
+4. 在 config 里面最下方的 repo 后面写 GitHub 给的链接，在 branch 后面填 master&lt;br&gt;
+（第一次写也就写成这样了。。估计也就我自己看得懂。。。）&lt;/p&gt;
+</content>
+        <category term="教程" />
+        <updated>2020-11-18T06:07:53.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2020/11/18/%E9%9A%8F%E7%AC%94/</id>
+        <title>随笔</title>
+        <link rel="alternate" href="http://example.com/2020/11/18/%E9%9A%8F%E7%AC%94/"/>
+        <content type="html">&lt;p&gt;## 第一章&lt;/p&gt;
+&lt;p&gt;2020-11-18 13:40&lt;br&gt;
+ 天气：晴&lt;br&gt;
+今天到了周三，下午第一节的设计鉴赏也结课了，不知不觉已经来了两个月了，这两个月里的大学生活也算是充实，有学不懂的高数，有 c 语言，还有费劲的要死的工程制图，这些也都算是大学生活的一部分，同样，这两个月里也发生了不少事情，有喜有悲。图书馆去的不少，还是感觉有很多没有做到。。。残局停在掌上，死局欲盖弥彰。兴许，青竹早凋，碧梧已僵，人事本难防。只在，旧时旧日，大梦了一场。从此，天各一方，各自怀想，不如两相忘。一夜长安冷雨，几声马蹄彷徨，只拂一拂袖，挥别了当年模样，千里江山入眼，谁不志在四方，行到水穷也不曾回望。&lt;br&gt;
+直道相思了无益，未妨惆怅是清狂。&lt;/p&gt;
+</content>
+        <category term="随笔" />
+        <updated>2020-11-18T05:37:44.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2020/10/23/emmm/</id>
         <title>emmmmm</title>

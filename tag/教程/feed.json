@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "欲买桂花同载酒，终不似，少年游。",
+    "title": "欲买桂花同载酒，终不似，少年游。 • All posts by \"教程\" tag",
     "description": "emmmmm",
     "home_page_url": "http://example.com",
     "items": [
@@ -23,32 +23,6 @@
             "tags": [
                 "教程"
             ]
-        },
-        {
-            "id": "http://example.com/2020/11/18/%E9%9A%8F%E7%AC%94/",
-            "url": "http://example.com/2020/11/18/%E9%9A%8F%E7%AC%94/",
-            "title": "随笔",
-            "date_published": "2020-11-18T05:37:44.000Z",
-            "content_html": "<p>## 第一章</p>\n<p>2020-11-18 13:40<br>\n 天气：晴<br>\n今天到了周三，下午第一节的设计鉴赏也结课了，不知不觉已经来了两个月了，这两个月里的大学生活也算是充实，有学不懂的高数，有 c 语言，还有费劲的要死的工程制图，这些也都算是大学生活的一部分，同样，这两个月里也发生了不少事情，有喜有悲。图书馆去的不少，还是感觉有很多没有做到。。。残局停在掌上，死局欲盖弥彰。兴许，青竹早凋，碧梧已僵，人事本难防。只在，旧时旧日，大梦了一场。从此，天各一方，各自怀想，不如两相忘。一夜长安冷雨，几声马蹄彷徨，只拂一拂袖，挥别了当年模样，千里江山入眼，谁不志在四方，行到水穷也不曾回望。<br>\n直道相思了无益，未妨惆怅是清狂。</p>\n",
-            "tags": [
-                "随笔"
-            ]
-        },
-        {
-            "id": "http://example.com/2020/10/23/emmm/",
-            "url": "http://example.com/2020/10/23/emmm/",
-            "title": "emmmmm",
-            "date_published": "2020-10-23T01:29:36.000Z",
-            "content_html": "<p>## 第一章</p>\n<p>内容</p>\n<p>很烦。。Linux 装在了机械硬盘上面结果导致开机启动特别慢。。所以我更新博客也变得麻烦起来了。。。所以我就想在 Windows 上面重新开一个博客。。这样的话我更新起来也会相对的方便一些。。。还是太麻烦了。。加上最近还比较的忙。。麻烦事情好多。。所以就懒得换 linux 去写东西了。。以下是以前的博客文章。。</p>\n<p>今天 emm，其实是昨天，室友给我推荐了一个食堂二楼新开的一家店，是一家叫做老潼关肉夹馍的店，我点了擀面皮和那个肉夹馍，味道确实比我们那好的多，用的饼是那种酥脆的，酱肉的味道也是非常不错的，可以一试。今天中午我又要了那的麻辣米线，味道很足，也有麻和辣两种味道，今天晚上的组织行为学基础课有点尴尬。老师问了个问题半天没有人回答，然后老师就有点愤怒。。大家都坐在后排。。在写作业之类的。真是奇妙阿。。今天的月亮好亮，话说这几天的天气一直很好，天气也暖和起来了，比之前的阴雨天好多了，也舒服多了。Peace day oncemore!<br>\n2020-10-22</p>\n<p>针不戳阿，今天是 2020 年 10 月 19 日，就在今天，我，搭建了属于我的第一个博客，这是一个十分值得高兴的事情，所以我吃了两包鸡肉和方便面。。哈哈哈哈，以后就可以把东西放在这个上面了。。针不戳。</p>\n<hr>\n",
-            "tags": []
-        },
-        {
-            "id": "http://example.com/2020/10/23/hello-world/",
-            "url": "http://example.com/2020/10/23/hello-world/",
-            "title": "Hello World",
-            "date_published": "2020-10-23T01:26:13.530Z",
-            "content_html": "<p>Welcome to <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvLw==\">Hexo</span>! This is your very first post. Check <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv\">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=\">troubleshooting</span> or you can ask me on <span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==\">GitHub</span>.</p>\n<h2 id=\"quick-start\"><a class=\"markdownIt-Anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"markdownIt-Anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo new <span class=\"string\">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s\">Writing</span></p>\n<h3 id=\"run-server\"><a class=\"markdownIt-Anchor\" href=\"#run-server\">#</a> Run server</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo server</span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=\">Server</span></p>\n<h3 id=\"generate-static-files\"><a class=\"markdownIt-Anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo generate</span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s\">Generating</span></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"markdownIt-Anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo deploy</span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s\">Deployment</span></p>\n",
-            "tags": []
         }
     ]
 }
