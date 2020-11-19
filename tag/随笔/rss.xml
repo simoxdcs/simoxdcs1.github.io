@@ -5,21 +5,32 @@
         <link>http://example.com</link>
         <description>emmmmm</description>
         <language>zh-cn</language>
-        <pubDate>Wed, 18 Nov 2020 13:37:44 +0800</pubDate>
-        <lastBuildDate>Wed, 18 Nov 2020 13:37:44 +0800</lastBuildDate>
+        <pubDate>Fri, 20 Nov 2020 00:12:57 +0800</pubDate>
+        <lastBuildDate>Fri, 20 Nov 2020 00:12:57 +0800</lastBuildDate>
         <category>教程</category>
         <category>随笔</category>
         <item>
-            <guid isPermalink="true">http://example.com/2020/11/18/%E9%9A%8F%E7%AC%94/</guid>
-            <title>随笔</title>
-            <link>http://example.com/2020/11/18/%E9%9A%8F%E7%AC%94/</link>
+            <guid isPermalink="true">http://example.com/2020/11/20/%E9%9A%8F%E7%AC%94%E4%B9%8B%E4%BA%8C/</guid>
+            <title>随笔之二</title>
+            <link>http://example.com/2020/11/20/%E9%9A%8F%E7%AC%94%E4%B9%8B%E4%BA%8C/</link>
+            <category>随笔</category>
+            <pubDate>Fri, 20 Nov 2020 00:12:57 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;## 正文&lt;br&gt;
+最近报名了学校的星火杯，想着搞点高中一直想搞的东西。。又觉得那个东西有点过于简单了。。思来想去和团长和阿伟合计了一下，就把小车和那个监听模块组合起来，搞一个监听遥控小车，这样就行了。最开始买了一个遥控的但只能前后走，而且十分的低端，就觉得十分的逊，于是又买了一个单片机的蓝牙小车，这会一下就高端起来了，可以蓝牙在手机上 app 上操控小车，还可以实现避障和循迹，而且全部是自己焊接这就一下强起来了，十分的不错啊。经过我一个晚上的努力，我把小车焊接起来了。。但是由于焊接的不是很好，于是烧毁了一个电机驱动 LS19110s 所幸在清单上可以找到，于是我在淘宝上买了一个，已经发货了大概 22 号就到了。。现在我已经把小车其他的功能全部调试好了。。我真厉害，话说这个东西是真的有意思。。下次还要搞一个。。前几天给我爸打了个电话。。聊了聊天我爸还给我发了 500 让我买鞋。。已经买了，是匹克的态极应该不错。。今天还写了入党申请书。。考察期有两年。。真棒。。就这样&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2020/11/18/%E9%9A%8F%E7%AC%94%E4%B9%8B%E4%B8%80/</guid>
+            <title>随笔之一</title>
+            <link>http://example.com/2020/11/18/%E9%9A%8F%E7%AC%94%E4%B9%8B%E4%B8%80/</link>
             <category>随笔</category>
             <pubDate>Wed, 18 Nov 2020 13:37:44 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;## 第一章&lt;/p&gt;
 &lt;p&gt;2020-11-18 13:40&lt;br&gt;
  天气：晴&lt;br&gt;
 今天到了周三，下午第一节的设计鉴赏也结课了，不知不觉已经来了两个月了，这两个月里的大学生活也算是充实，有学不懂的高数，有 c 语言，还有费劲的要死的工程制图，这些也都算是大学生活的一部分，同样，这两个月里也发生了不少事情，有喜有悲。图书馆去的不少，还是感觉有很多没有做到。。。残局停在掌上，死局欲盖弥彰。兴许，青竹早凋，碧梧已僵，人事本难防。只在，旧时旧日，大梦了一场。从此，天各一方，各自怀想，不如两相忘。一夜长安冷雨，几声马蹄彷徨，只拂一拂袖，挥别了当年模样，千里江山入眼，谁不志在四方，行到水穷也不曾回望。&lt;br&gt;
-直道相思了无益，未妨惆怅是清狂。&lt;/p&gt;
+直道相思了无益，未妨惆怅是清狂。&lt;br&gt;
+今天还去献了血，有一辆采血车来了，在竹园餐厅那。。献血的人好多。。还遇到了一个和我高数一个班奠定人。。那个抽血用的针管好粗啊大概 1.5mm 直径的样子。。怪疼的。。抽完还贴上去了一个超大的创可贴。。可能是我比较瘦的原因只让我献了 200cc 的血。。完了还给了几个纪念品有个保温杯有个脉动有包饼干。。针不戳。。这还是我第一次献血&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
