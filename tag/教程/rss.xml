@@ -113,7 +113,7 @@
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;bWFpbHRvOnpodDIzMzQyMDA0NjNAZ21haWwuY29t&#34;&gt;zht2334200463@gmail.com&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;#图片：&lt;/p&gt;
 &lt;figure class=&#34;highlight markdown&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;![&lt;span class=&#34;string&#34;&gt;图片名称&lt;/span&gt;](&lt;span class=&#34;link&#34;&gt;图片网址或者本地路径&lt;/span&gt;)   放在和文档一个文件夹内则直接输入图片名称即可	也可以手动选择&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;![嘿嘿](C:\Users\zht2333\Pictures\Saved Pictures\123.png)&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://s3.ax1x.com/2020/12/06/DjtwAs.jpg&#34; alt=&#34;嘿嘿&#34;&gt;&lt;/p&gt;
 &lt;p&gt;#快捷键：&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
