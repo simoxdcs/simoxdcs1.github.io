@@ -24,15 +24,15 @@
 <link rel="stylesheet" href="/css/app.css?v=0.2.5">
 
   
-  <meta name="keywords" content="教程" />
+  <meta name="keywords" content="随笔" />
 
 
-<link rel="canonical" href="http://example.com/2020/11/18/linux%E6%8D%A2%E6%BA%90/">
+<link rel="canonical" href="http://example.com/2020/12/31/%E9%9A%8F%E7%AC%94%E4%B9%8B%E4%B8%83/">
 
 
 
   <title>
-linux相关 |
+随笔之七 |
 Momingのzhan = 欲买桂花同载酒，终不似，少年游。</title>
 <meta name="generator" content="Hexo 5.2.0"></head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -60,16 +60,16 @@ Momingのzhan = 欲买桂花同载酒，终不似，少年游。</title>
         <div id="brand">
           <div class="pjax">
           
-  <h1 itemprop="name headline">linux相关
+  <h1 itemprop="name headline">随笔之七
   </h1>
   
 <div class="meta">
-  <span class="item" title="创建时间：2020-11-18 14:20:02">
+  <span class="item" title="创建时间：2020-12-31 15:14:25">
     <span class="icon">
       <i class="ic i-calendar"></i>
     </span>
     <span class="text">发表于</span>
-    <time itemprop="dateCreated datePublished" datetime="2020-11-18T14:20:02+08:00">2020-11-18</time>
+    <time itemprop="dateCreated datePublished" datetime="2020-12-31T15:14:25+08:00">2020-12-31</time>
   </span>
 </div>
 
@@ -102,12 +102,12 @@ Momingのzhan = 欲买桂花同载酒，终不似，少年游。</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipeyvx1d4j20zk0m8hdt.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gicis3attqj20zk0m8k7l.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipeyhsblkj20zk0m81kx.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclxp31goj20zk0m8qv5.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipevarprfj20zk0m8npd.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gicit31ffoj20zk0m8naf.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipevo9j1jj20zk0m8e81.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giciuv0socj20zk0m8qes.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gicitzannuj20zk0m8b29.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipeyonbf9j20zk0m8e81.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclhnx9glj20zk0m8npd.jpg"></li>
+          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipew8gmvyj20zk0m87wh.jpg"></li>
         </ul>
       </div>
     </header>
@@ -136,7 +136,7 @@ Momingのzhan = 欲买桂花同载酒，终不似，少年游。</title>
 </div>
 
     <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
-  <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/18/linux%E6%8D%A2%E6%BA%90/">
+  <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/31/%E9%9A%8F%E7%AC%94%E4%B9%8B%E4%B8%83/">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="image" content="/images/avatar.jpg">
@@ -151,67 +151,20 @@ Momingのzhan = 欲买桂花同载酒，终不似，少年游。</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <p>## 第一章</p>
-<p>因为我 Linux 也是才开始用。。结果自己就遇到了很多麻烦的事情。。就自己在网上东扒西找的姑且算是解决了。。就自己写个东西一面自己在遇到的时候又不会了。。<br>
-换源：<br>
-sudo pacman-mirrors -i -c China -m rank  更新镜像<br>
- sudo vim /etc/pacman.d/mirrorlist  查看选择的源<br>
- sudo vim /etc/pacman.conf  设置源（可以自己添加源链接进去）</p>
-<p>我用的是 manjaro 这个 archlinux 的衍生版本。。还算是怪好用的<br>
-更新 ：<br>
-1.sudo pacman -S cuda 安装<br>
- 2.pacman -Syu 更新系统<br>
- 3.pacman -Syy 强制更新<br>
- 4.pacman -Ss keyword	在仓库中搜索含关键字的包（常用）<br>
-5.pacman -Qs keyword	搜索已安装的包（常用）	<br>
-6.pacman -Qi package_name	查询本地安装包的详细信息<br>
- 7.pacman -Ql package_name	列出该包的文件<br>
- 8.pacman -Fs keyword	按文件名查找软件库<br>
- 9.pacman -Si package_name	显示远程软件包的详尽的信息<br>
- 10.pacman -Qii package_name	使用两个 -i 将同时显示备份文件和修改状态<br>
- 11.pacman -Ql package_name	要获取已安装软件包所包含文件的列表<br>
- 12.pacman -Fl package_name	查询远程库中软件包包含的文件<br>
- 13.pacman -Qk package_name	检查软件包安装的文件是否都存在<br>
- 14.pacman -Fo /path/to/file_name	查询文件属于远程数据库中的哪个软件包<br>
- 15.pacman -Qdt	要罗列所有不再作为依赖的软件包 (孤立 orphans)<br>
- 16.pacman -Qet	要罗列所有明确安装而且不被其它包依赖的软件包<br>
- 17.pactree package_name	要显示软件包的依赖树<br>
- 18.whoneeds package_name	检查一个安装的软件包被那些包依赖<br>
- 19.pactree -r package_name	检查一个安装的软件包被那些包依赖<br>
- 20…pacman -Sw package_name	只下载包，不安装。<br>
-21.pacman -Sc	清理未安装的包文件（常用）包文件位于 /var/cache/pacman/pkg/ 目录<br>
- 22.pacman -Scc	清理所有的缓存文件（常用）<br>
-23.pacman -R package_name	该命令将只删除包，保留其全部已经安装的依赖关系<br>
- 24.pacman -Rs package_name	在删除包的同时，删除其所有没有被其他已安装软件包使用的依赖关系（常用）<br>
-25.pacman -Rsc package_name	在删除包的同时，删除所有依赖这个软件包的程序<br>
- 26.pacman -Rd package_name	在删除包时不检查依赖<br>
- 8.pacman -Fs keyword    按文件名查找软件库<br>
- 9.pacman -Si package_name       显示远程软件包的详尽的信息<br>
- 10.pacman -Qii package_name     使用两个 -i 将同时显示备份文件和修改状态<br>
- 11.pacman -Ql package_name      要获取已安装软件包所包含文件的列表<br>
- 12.pacman -Fl package_name      查询远程库中软件包包含的文件<br>
- 13.pacman -Qk package_name      检查软件包安装的文件是否都存在<br>
- 14.pacman -Fo /path/to/file_name        查询文件属于远程数据库中的哪个软件包<br>
- 15.pacman -Qdt  要罗列所有不再作为依赖的软件包 (孤立 orphans)<br>
- 16.pacman -Qet  要罗列所有明确安装而且不被其它包依赖的软件包<br>
- 17.pactree package_name 要显示软件包的依赖树<br>
- 18.whoneeds package_name        检查一个安装的软件包被那些包依赖<br>
- 19.pactree -r package_name      检查一个安装的软件包被那些包依赖<br>
- 20…pacman -Sw package_name     只下载包，不安装。<br>
-21.pacman -Sc   清理未安装的包文件（常用）包文件位于 /var/cache/pacman/pkg/ 目录<br>
- 22.pacman -Scc  清理所有的缓存文件（常用）<br>
-23.pacman -R package_name       该命令将只删除包，保留其全部已经安装的依赖关系<br>
- 24.pacman -Rs package_name      在删除包的同时，删除其所有没有被其他已安装软件包<br>
-使用的依赖关系（常用）<br>
-25.pacman -Rsc package_name     在删除包的同时，删除所有依赖这个软件包的程序<br>
- 26.pacman -Rd package_name      在删除包时不检查依赖<br>
- 27.pacman -S package_name	执行 pacman -S firefox 将安装 Firefox（常用）	你也可以同时安装多个包，只需以空格分隔包名即<br>
- pacman -Sy package_name	与上面命令不同的是，该命令将在同步包数据库后再执行安装。28.pacman -Sv package_name	在显示一些操作信息后执行安装。	<br>
-29.pacman -U local_package_name	安装本地包，其扩展名为 pkg.tar.gz 或 pkg.tar.xz	30.pacman -U url	安装一个远程包（不在 pacman 配置的源里面）</p>
-<p>姑且先写这么多。。不够的以后再补上吧。</p>
+    <p>2020 年 12 月 31 日 15:14:25</p>
+<p>今天是今年的最后一天了，还有大概 9 个小时就到明年了，2020，这一年来的匆匆，去的也匆匆，这是一个不太安宁的一年，年初的新冠疫情在国内很快就控制住了，但是在国外，不但没有控制住还有爆发的趋势，美国总统川建国下台了，今年也是我参加高考的一年，今年我国还失去了多位院士，今年是悲伤的一年。我高考顺利如愿来到了我想来的大学，感受着从来没有过的别样感受，今年我还递交了入党申请书，一切的一切看起来是那么的不可思议而又魔幻，但事实就是这样，不管你高兴也好，失落也罢。他确实发生了，经历的多了才能够成长，还有四天，我就要开始考试，然后去看望我多年没有见面的姥姥姥爷还有姨妈，在这 2020 年的最后一天，我向着未来发出企盼，希望能够一切顺利，再见 2020.</p>
+<p>思归未归</p>
+<p>长风哭野望寒月，蜡炬微摇向须眉。</p>
+<p>严防思归终无错，生于黑夜重彷徨。</p>
+<p>游丝难就双飞燕，金榜题名苦在前。</p>
+<p>微雨倾盆莫须有，独木成舟几个秋。</p>
+<p>墨板青砖应犹在，何人复歇赤亭台。</p>
+<p>斗转星移魔狂去，时光荏苒试末来。</p>
+<p>前去独者皆为勇，怒号光明踏歌行。</p>
+<p>岁末相思了无益，未防惆怅是轻狂。</p>
 
       <div class="tags">
-          <a href="/tags/%E6%95%99%E7%A8%8B/" rel="tag"><i class="ic i-tag"></i> 教程</a>
+          <a href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag"><i class="ic i-tag"></i> 随笔</a>
       </div>
   </div>
 
@@ -223,7 +176,7 @@ sudo pacman-mirrors -i -c China -m rank  更新镜像<br>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2020-11-18 14:40:45" itemprop="dateModified" datetime="2020-11-18T14:40:45+08:00">2020-11-18</time>
+    <time title="修改时间：2020-12-31 15:53:37" itemprop="dateModified" datetime="2020-12-31T15:53:37+08:00">2020-12-31</time>
   </span>
 </div>
 
@@ -254,7 +207,7 @@ sudo pacman-mirrors -i -c China -m rank  更新镜像<br>
   </li>
   <li class="link">
     <strong>本文链接：</strong>
-    <a href="http://example.com/2020/11/18/linux%E6%8D%A2%E6%BA%90/" title="linux相关">http://example.com/2020/11/18/linux换源/</a>
+    <a href="http://example.com/2020/12/31/%E9%9A%8F%E7%AC%94%E4%B9%8B%E4%B8%83/" title="随笔之七">http://example.com/2020/12/31/随笔之七/</a>
   </li>
   <li class="license">
     <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
@@ -273,22 +226,14 @@ sudo pacman-mirrors -i -c China -m rank  更新镜像<br>
     <div class="item left">
       
 
-  <a href="/2020/11/18/%E6%95%99%E7%A8%8B/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclimtf7dj20zk0m8qav.jpg" title="博客教程">
+  <a href="/2020/12/28/%E9%9A%8F%E7%AC%94%E4%B9%8B%E5%85%AD/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclflwv2aj20zk0m84qp.jpg" title="随笔之六">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
-  <h3>博客教程</h3>
+  <h3>随笔之六</h3>
   </a>
 
     </div>
     <div class="item right">
-      
-
-  <a href="/2020/11/18/hello-world/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicm0fdw5cj20zk0m8hdt.jpg" title="Hello World">
-  <span class="type">下一篇</span>
-  <span class="category"><i class="ic i-flag"></i> </span>
-  <h3>Hello World</h3>
-  </a>
-
     </div>
 </div>
 
@@ -361,12 +306,10 @@ sudo pacman-mirrors -i -c China -m rank  更新镜像<br>
 
   <ul id="quick">
     <li class="prev pjax">
-        <a href="/2020/11/18/%E6%95%99%E7%A8%8B/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
     </li>
     <li class="up"><i class="ic i-arrow-up"></i></li>
     <li class="down"><i class="ic i-arrow-down"></i></li>
     <li class="next pjax">
-        <a href="/2020/11/18/hello-world/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
     </li>
     <li class="percent"></li>
   </ul>
@@ -390,52 +333,7 @@ sudo pacman-mirrors -i -c China -m rank  更新镜像<br>
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2020/11/18/linux%E6%8D%A2%E6%BA%90/" title="linux相关">linux相关</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2020/11/20/%E9%9A%8F%E7%AC%94%E4%B9%8B%E4%BA%8C/" title="随笔之二">随笔之二</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2020/11/18/%E6%95%99%E7%A8%8B/" title="博客教程">博客教程</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2020/12/28/%E9%9A%8F%E7%AC%94%E4%B9%8B%E5%85%AD/" title="随笔之六">随笔之六</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2020/12/17/%E8%A5%BF%E7%94%B5%E6%A0%A1%E5%8F%B2%E9%A6%86%E6%B8%B8%E8%AE%B0/" title="西电校史馆游记">西电校史馆游记</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2020/11/18/%E9%9A%8F%E7%AC%94%E4%B9%8B%E4%B8%80/" title="随笔之一">随笔之一</a></span>
+    <span><a href="/2020/11/18/hello-world/" title="Hello World">Hello World</a></span>
   </li>
 
       
@@ -462,7 +360,52 @@ sudo pacman-mirrors -i -c China -m rank  更新镜像<br>
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2020/12/06/MarkDown/" title="MarkDown">MarkDown</a></span>
+    <span><a href="/2020/11/18/%E9%9A%8F%E7%AC%94%E4%B9%8B%E4%B8%80/" title="随笔之一">随笔之一</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2020/12/08/%E9%9A%8F%E7%AC%94%E4%B9%8B%E5%9B%9B/" title="随笔之四">随笔之四</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2020/11/24/%E9%9A%8F%E7%AC%94%E4%B9%8B%E4%B8%89/" title="随笔之三">随笔之三</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2020/11/18/linux%E6%8D%A2%E6%BA%90/" title="linux相关">linux相关</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2020/11/18/%E6%95%99%E7%A8%8B/" title="博客教程">博客教程</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2020/12/25/%E9%9A%8F%E7%AC%94%E4%B9%8B%E4%BA%94/" title="随笔之五">随笔之五</a></span>
   </li>
 
       
@@ -502,7 +445,7 @@ sudo pacman-mirrors -i -c China -m rank  更新镜像<br>
   </div>
 <script data-config type="text/javascript">
   var LOCAL = {
-    path: '2020/11/18/linux换源/',
+    path: '2020/12/31/随笔之七/',
     favicon: {
       show: "（●´3｀●）やれやれだぜ",
       hide: "(´Д｀)大変だ！"

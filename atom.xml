@@ -3,10 +3,29 @@
     <id>http://example.com</id>
     <title>欲买桂花同载酒，终不似，少年游。</title>
     <link href="http://example.com" />
-    <updated>2020-12-28T15:28:24.000Z</updated>
+    <updated>2020-12-31T07:14:25.000Z</updated>
     <category term="教程" />
     <category term="随笔" />
     <category term="游记" />
+    <entry>
+        <id>http://example.com/2020/12/31/%E9%9A%8F%E7%AC%94%E4%B9%8B%E4%B8%83/</id>
+        <title>随笔之七</title>
+        <link rel="alternate" href="http://example.com/2020/12/31/%E9%9A%8F%E7%AC%94%E4%B9%8B%E4%B8%83/"/>
+        <content type="html">&lt;p&gt;2020 年 12 月 31 日 15:14:25&lt;/p&gt;
+&lt;p&gt;今天是今年的最后一天了，还有大概 9 个小时就到明年了，2020，这一年来的匆匆，去的也匆匆，这是一个不太安宁的一年，年初的新冠疫情在国内很快就控制住了，但是在国外，不但没有控制住还有爆发的趋势，美国总统川建国下台了，今年也是我参加高考的一年，今年我国还失去了多位院士，今年是悲伤的一年。我高考顺利如愿来到了我想来的大学，感受着从来没有过的别样感受，今年我还递交了入党申请书，一切的一切看起来是那么的不可思议而又魔幻，但事实就是这样，不管你高兴也好，失落也罢。他确实发生了，经历的多了才能够成长，还有四天，我就要开始考试，然后去看望我多年没有见面的姥姥姥爷还有姨妈，在这 2020 年的最后一天，我向着未来发出企盼，希望能够一切顺利，再见 2020.&lt;/p&gt;
+&lt;p&gt;思归未归&lt;/p&gt;
+&lt;p&gt;长风哭野望寒月，蜡炬微摇向须眉。&lt;/p&gt;
+&lt;p&gt;严防思归终无错，生于黑夜重彷徨。&lt;/p&gt;
+&lt;p&gt;游丝难就双飞燕，金榜题名苦在前。&lt;/p&gt;
+&lt;p&gt;微雨倾盆莫须有，独木成舟几个秋。&lt;/p&gt;
+&lt;p&gt;墨板青砖应犹在，何人复歇赤亭台。&lt;/p&gt;
+&lt;p&gt;斗转星移魔狂去，时光荏苒试末来。&lt;/p&gt;
+&lt;p&gt;前去独者皆为勇，怒号光明踏歌行。&lt;/p&gt;
+&lt;p&gt;岁末相思了无益，未防惆怅是轻狂。&lt;/p&gt;
+</content>
+        <category term="随笔" />
+        <updated>2020-12-31T07:14:25.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2020/12/28/%E9%9A%8F%E7%AC%94%E4%B9%8B%E5%85%AD/</id>
         <title>随笔之六</title>
