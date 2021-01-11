@@ -3,10 +3,20 @@
     <id>http://example.com</id>
     <title>欲买桂花同载酒，终不似，少年游。</title>
     <link href="http://example.com" />
-    <updated>2020-12-31T07:14:25.000Z</updated>
+    <updated>2021-01-11T12:50:57.000Z</updated>
     <category term="教程" />
     <category term="随笔" />
     <category term="游记" />
+    <entry>
+        <id>http://example.com/2021/01/11/%E9%9A%8F%E7%AC%94%E4%B9%8B%E5%85%AB/</id>
+        <title>随笔之八</title>
+        <link rel="alternate" href="http://example.com/2021/01/11/%E9%9A%8F%E7%AC%94%E4%B9%8B%E5%85%AB/"/>
+        <content type="html">&lt;p&gt;2021-01-03&lt;/p&gt;
+&lt;p&gt;时间嘛。。就不具体写出来了，因为我写这篇文章的时候已经是我考完试了。。啥？你想问考试结果。。。那你最好右上角直接走人。。我是个菜鸡。。。均分才刚过 80。。对了，我想起来这天我去洗澡来着，然后提前了好久去洗。。结果。。才四点。。就没有热水了。。我刚刚涂上沐浴露。。。结果又洗了一个阴间澡。。哎。。西电这热水。。这还是西北第一宿舍。。。我真是服了。。。。就这样吧。。现在我已经到了我姥爷家里了。。做了一天火车。。累死我了。。今天什么游戏都还没玩。。。不过我姥爷家里的 wifi 速度好快啊。。20 多 &lt;code&gt;m&lt;/code&gt; 。。强。。今天就开始寒假了，这一寒假。。我准备搞一手下学期的高数。。高数杀我。。悲。。我要好好搞一搞。。还有 &lt;code&gt;c&lt;/code&gt;  和 &lt;code&gt;java&lt;/code&gt; 。。任重道远啊。。。冲！&lt;/p&gt;
+</content>
+        <category term="随笔" />
+        <updated>2021-01-11T12:50:57.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2020/12/31/%E9%9A%8F%E7%AC%94%E4%B9%8B%E4%B8%83/</id>
         <title>随笔之七</title>
