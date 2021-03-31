@@ -2529,11 +2529,11 @@ main >.inner {
 .social .item.weibo i {
   color: #ea716e;
 }
-.social .item.about::before {
-  background-color: #3b5998;
+.social .item.email::before {
+  background-color: #55acd5;
 }
-.social .item.about i {
-  color: #3b5998;
+.social .item.email i {
+  color: #55acd5;
 }
 .social .item:focus i,
 .social .item:hover i {
